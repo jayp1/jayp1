@@ -1,5 +1,5 @@
 {
-  "short_name": "Jarryd's Story",
+  "short_name": "JP Portfolio",
   "name": "Jarryd's Portfolio",
   "icons": [
     {
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#563d7c",
+  "background_color": "white"
 }
