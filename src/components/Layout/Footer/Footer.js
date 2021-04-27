@@ -12,7 +12,7 @@ export default props => (
       <IconButton aria-label="Linkedin.com" style={{ color: 'white' }} onClick={() => window.open('https://www.linkedin.com/in/jarrydpalzenberger/')}>
         <LinkedInIcon />
       </IconButton>
-      <IconButton aria-label="Instagram.com" style={{ color: 'white' }} onClick={() => window.open('https://www.instagram.com/jaylp1/')}>
+      <IconButton aria-label="Instagram.com" style={{ color: 'white' }} onClick={() => window.open('https://www.instagram.com/jpalzen/')}>
         <InstagramIcon />
       </IconButton>
       <IconButton aria-label="Github.com" style={{ color: 'white' }} onClick={() => window.open('https://github.com/jayp1/')}>
@@ -22,7 +22,7 @@ export default props => (
 
     </div>
     <div className="bottom">
-      <h5>Made by <i>Jarryd Palzenberger</i></h5>
+      <h5>{'Copyright © PALZEN 2021' }</h5>
     </div>
   </footer>
 );

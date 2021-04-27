@@ -1,10 +1,4 @@
-body, html {
-    margin:0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    font-size:16px;
-    background-color:rgb(36, 37, 38);   /*#283e4a; rgb(47, 79, 79); = Darkslategrey*/
-  }
+
 /*
 primary: #
 secondary:#385898;

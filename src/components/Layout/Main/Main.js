@@ -1,33 +1,31 @@
 import React from 'react';
-import {Grid, Paper} from '@material-ui/core';
+/*import { Grid, Paper } from '@material-ui/core';*/
 import './Main.css';
-
-const styles = {
-    Paper: {
-      padding:20,
-      margin: 20,
-      
-    }
-  }
+import { Projects } from './Projects/Projects';
 
 export default props => (
-   <main className="Main">
-     <div className="Summary"> 
-       <p>I am an technical operations executive </p>
-     </div>
-     
-     {/*<Grid container>
-      <Grid item sm>
+  <main className="Main">
+    <div id="Summary">
+        <h1>Hi, I am Jarryd.</h1>
+        <p>I build awesome web experiences with modern technology.</p>
+    </div>
+{/*
+    <Grid container>
+      <Grid item xs sm>
         <Paper elevation={3} style={styles.Paper}>
-            Left Pane
+          Left Pane
         </Paper>
       </Grid>
-      <Grid item sm>
+      <Grid item xs sm>
         <Paper elevation={3} style={styles.Paper}>
-            Right Pane
+          Right Pane
             </Paper>
       </Grid>
-    </Grid>*/}
-   </main>
-    
-  );
+    </Grid>
+*/}
+    <Projects />
+
+
+  </main>
+
+);

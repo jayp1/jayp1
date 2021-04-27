@@ -1,5 +1,30 @@
-.Main {
-    width:75%;
-    margin: 0 auto;
-    color:white;
+
+#Summary {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    height: 100vh;
+    background-color: #16161A;
+    /*background-image: linear-gradient(62deg, #796f6f 0%, #201920 100%);*/
 }
+h1 {
+    font-size:4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin:5px;
+    padding:0;
+    color:#FAF0F6;
+}
+#Summary > p {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #832020;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+

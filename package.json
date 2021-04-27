@@ -1,8 +1,8 @@
 {
-  "name": "jayp1",
+  "name": "jp-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jayp1.github.io/jayp1",
+  "homepage": "http://jayp1.github.io/jp-portfolio",
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@material-ui/icons": "^4.9.1",

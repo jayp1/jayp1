@@ -8,9 +8,10 @@ export default props => (
       </div>
       <div className="right">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#Summary">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
          </ul>
       </div>
     </nav>
