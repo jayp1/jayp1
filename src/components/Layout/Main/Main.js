@@ -5,10 +5,11 @@ import { Projects } from './Projects/Projects';
 
 export default props => (
   <main className="Main">
-    <div id="Summary">
-        <h1>Hi, I am Jarryd.</h1>
+    <section id="Summary">
+
+        <h1>Hi, I'm Jarryd.</h1>
         <p>I build awesome web experiences with modern technology.</p>
-    </div>
+    </section>
 {/*
     <Grid container>
       <Grid item xs sm>

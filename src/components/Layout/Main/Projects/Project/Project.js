@@ -5,16 +5,15 @@ export const Project = (props) => {
     return (
         <div className="Project-card">
                 <div className="Project-image">
-                    <img src={props.WeatherAppPic} alt="Screenshot of Weather Web app"></img>
-
+                    <img src={props.screenshot} alt={"Screenshot of "+props.title}></img>
                 </div>
                 <div className="Project-description">
-                    <h2> Weather App</h2>
-                    <p>Hosted on Google Firebase and developed with React, this app allows you to determine weather forecasts for worldwide cities.</p>
+                    <h2>{props.title}</h2>
+                    <p>{props.description}</p>
 
                 </div>
                 <div className="Project-action">
-                    <a href="#" target='_blank'>To Website</a>
+                    <a href={props.url} target='_blank'>To Website</a>
                 </div>
 
             </div>
