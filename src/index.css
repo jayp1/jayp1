@@ -1,30 +1,44 @@
 :root {
-  --main-blue:#001524;
-  --main-white:#FAF0F6;
-  --sec-blue:#1D3461;
-  --sec-honeydew:#D9E5D6;
+  --main-color:#7510F7;
+  --complimentary-color:#E1F812;
+  --sec-complimentary-color:#47F812;
+  --main-white:#F5EEFE;
+  --sec-white:#EBDDFE;
   --sec-platinum:#EAEBEA;
+  --text-blue:#141c3a;
+  --dark-purple:#33204f;
+  --contact-section:#415a5f;
+  --gradient-main:#BF99F0;
+
+  font-size:16px;
+}
+
+* {
+  
+  box-sizing: border-box;
 }
 
 /*
---dark-cornflower-blue: #103783ff;
---blue-yonder: #5673aeff;
---wild-blue-yonder: #a6b3d1ff;
---cultured: #f5f3f4ff;
---white: #ffffffff;
---silver: #c5c6c7ff;
---spanish-gray: #8b8d8eff;
---eerie-black: #161a1dff;
---rich-black-fogra-39: #0b090aff;
-*/
-
+  --button-color:#1d5b61c7;
+  --dark-purple:#201920;
+  --main-gray: #303841;
+  --blue-text:#c2ceea;
+  --contact-background:#1e1f1f;
+  */
 
 body, html {
   margin:0;
   padding:0;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-size:16px;
-  background-color: var(--main-blue);
-  background-image: linear-gradient(62deg, #0B265B 0%, #201920 100%);
+  background-color: #fff;
+  /*background-image: linear-gradient(45deg, #070010 25%, var(--main-color) 100%);*/
+}
+
+::-webkit-scrollbar {
+  width:6px;
+  border-left: 1px solid #E6ECF8;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #5F00DA;
 }

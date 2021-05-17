@@ -6,12 +6,7 @@
     box-shadow:20px;
     color:white;
     border-top: 2px solid white;
-}
-.top, .bottom {
-    margin: 10px 20px;
-}
-.top {
-    padding:10px;
+    background-color: var(--main-gray);
 }
 
 

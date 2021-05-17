@@ -19,6 +19,11 @@ img {
 }
 .Project-description {
     padding:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
 }
 .Project-description > p {
     line-height: 1.43;
@@ -30,10 +35,13 @@ img {
     padding:8px;
     align-items:center;
     display:flex;
+    justify-content: center;
 }
 .Project-action > a {
     padding:8px 11px;
-    color:#6D1B1B;
+    background-color: #486B73;
+    border-radius:4px;
+    color:white;
     
 }
 .Project-description > h2 {

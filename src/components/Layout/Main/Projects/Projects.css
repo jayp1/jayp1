@@ -2,5 +2,14 @@
     display:flex;
     justify-content:center;
     flex-wrap: wrap;
-    background-color: aliceblue;
+}
+#Project-section {
+    background-color: #212121c7;
+}
+#Project-section > h2 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
 }
