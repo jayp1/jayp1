@@ -3,10 +3,13 @@
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    box-shadow:20px;
     color:white;
-    border-top: 2px solid white;
-    background-color: var(--main-gray);
+    font-weight:500;
+    font-size:1rem;
+    background-color: var(--main-color);
+    border-top: 2px solid lightgray;
+    height:20vh;
+
 }
 
 

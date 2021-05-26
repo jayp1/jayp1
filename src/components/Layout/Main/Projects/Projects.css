@@ -4,10 +4,11 @@
     flex-wrap: wrap;
 }
 #Project-section {
-    background-color: #212121c7;
+    background-color: white;
+    padding-bottom:50px;
 }
 #Project-section > h2 {
-    color: white;
+    color: var(--text-blue);
     margin: 0;
     text-align: center;
     padding: 50px;

@@ -53,6 +53,11 @@ p {
   padding-right: 2rem;
 }
 
+.box-title{
+  font-size: 1.3rem;
+  font-family:inherit;
+}
+
 .box-item {
   flex:1 1 0;
   padding: 50px 30px;
@@ -75,14 +80,14 @@ img.is-skill-icon {
    margin: 60px 30px;
    flex-wrap: wrap;
    padding:2rem 1rem;
-   border-radius:25px;
+   
  }
  .Paper {
    background-color:white;
    display:flex;
-   justify-content: space-between;
+   flex-direction: column;
+   justify-content: flex-start;
    align-items:center;
-   min-width: 350px;
    flex: 1 1 350px;
    max-width:550px;
    height:auto;
@@ -96,11 +101,8 @@ img.is-skill-icon {
  .Paper-title {
    padding:0;
    padding-right:1rem;
-   font-weight:400;
-   font-size:2rem;
-   color:var(--text-blue);;
-   font-weight: 500;
-   font-family:'Raleway';
+   font-size:1.5rem;
+   color:var(--text-blue);
  }
 .section-heading {
   color: white;
@@ -123,13 +125,19 @@ img.is-skill-icon {
    display:inline-block;
    width:auto;
    padding:0.5rem;
-   font-size:1.2rem;
+   font-size:1.1rem;
    min-width:80px;
    margin: 0 6px 8px 0;
    list-style: none;
    background-color:#f3ed3f;
    border-radius:0.75rem;
    text-align:center;
+ }
+
+ @media (max-width:570px) {
+   .skill-item {font-size:0.9rem}
+  .Paper-title {font-size:1.17rem}
+  .Paper {padding:0.75rem 0;margin:0.75rem 0}
  }
 
 
@@ -141,21 +149,18 @@ img.is-skill-icon {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
-    height: 80vh;
-    background: #415a5f;
+    margin:0 100px 50px 100px;
+    padding:25px;
+    background-color: var(--text-blue);
     color:white;
+    border-radius:25px;
   }
   
   .contact-section-header > h2 {
-    font-size: 4rem;
+    font-size: 2.2rem;
   }
   
-  @media (max-width: 28.75em) {
-    .contact-section-header > h2 {
-      font-size: 3rem;
-    }
-  }
+
   
   .contact-section-header > p {
     font-style: italic;
@@ -184,5 +189,15 @@ img.is-skill-icon {
     padding: 1rem 2rem;
     border-radius: 2px;
   }
-  
+  @media (max-width: 460px) {
+    .contact-section-header > h2 {
+      font-size: 1.5rem;
+    }
+    .contact-details {
+      font-size:1.2rem;
+    }
+    .contact-section {
+      margin: 0 40px 50px 40px;
+    }
+  }
 

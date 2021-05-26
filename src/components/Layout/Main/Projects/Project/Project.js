@@ -13,7 +13,7 @@ export const Project = (props) => {
 
                 </div>
                 <div className="Project-action">
-                    <a href={props.url} target='_blank'>To Website</a>
+                    <a className="project-link" rel="noopener noreferrer" href={props.url} target='_blank'>To Website</a>
                 </div>
 
             </div>

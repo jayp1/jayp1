@@ -16,6 +16,7 @@ export const Projects = () => {
     return (
         <section id="Project-section">
             <h2 className="section-heading">Projects</h2>
+            
             <div className="Projects">
                 <Project screenshot={WeatherAppPic}
                     title="Weather Web App"

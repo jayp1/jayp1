@@ -1,6 +1,6 @@
 import React from 'react';
 import SummaryPic from '../../../images/undraw_feeling_proud_white.svg';
-import Resume from '../../../images/undraw_Resume.svg';
+/*import Resume from '../../../images/undraw_Resume.svg';*/
 import Frontend from '../../../images/front-end.svg';
 import ProductOwner from '../../../images/undraw_product_owner.svg';
 import './Main.css';
@@ -18,19 +18,19 @@ export default props => (
 
     <section id="skills">
 
-      <h2 className="section-heading">Knowledge bank</h2>
+      <h2 className="section-heading">My Knowledge Bank</h2>
       {/*<img src={Resume} alt="Man handing out his resume" />*/}
 
       <div className="box">
         <div className="box-item">
-          <figure class="image"><img class="is-skill-icon" src={ProductOwner} /></figure>
-          <h3>Product Owner</h3>
+          <figure class="image"><img class="is-skill-icon" alt="Product owner methodology" src={ProductOwner} /></figure>
+          <h3 className="box-title">Product Owner</h3>
           <p>I enjoy the responsibility of delivering technical products in an agile environment. </p>
           <p className=""></p>
         </div>
         <div className="box-item">
-          <figure class="image"><img class="is-skill-icon" src={Frontend} /></figure>
-          <h3>Web Developer</h3>
+          <figure class="image"><img class="is-skill-icon" src={Frontend} alt="Computer with code" /></figure>
+          <h3 className="box-title">Web Developer</h3>
           <p>I like to build web apps from scratch and enjoy bringing ideas to life in the browser.</p>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default props => (
 
       <div className="Cards">
         <div className="Paper">
-          <h4 className="Paper-title">What I know...</h4>
+          <h4 className="Paper-title">Languages I speak...</h4>
           <ul className="skill-list">
             <li className="skill-item">React.js</li>
             <li className="skill-item">Express.js</li>
@@ -75,11 +75,13 @@ export default props => (
       </div>
       <div class="contact-links">
         <a
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/jarrydpalzenberger/"
           target="_blank"
           class="btn contact-details"
         ><i class="fab fa-linkedin-in"></i> LinkedIn</a>
         <a
+          rel="noopener noreferrer"
           id="profile-link"
           href="https://github.com/jayp1"
           target="_blank"
@@ -87,12 +89,13 @@ export default props => (
         ><i class="fab fa-github"></i> GitHub</a>
         <a
           href="https://twitter.com/jpalzen"
+          rel="noopener noreferrer"
           target="_blank"
           class="btn contact-details"
         ><i class="fab fa-twitter"></i> Twitter</a>
-        <a href="mailto:jarrydp@outlook.com" class="btn contact-details"
+        <a href="mailto:jarrydp@outlook.com" class="btn contact-details" rel="noopener noreferrer"
         ><i class="fas fa-at"></i> Send a mail</a>
-        <a href="tel:+27791810477" class="btn contact-details"
+        <a href="tel:+27791810477" class="btn contact-details" rel="noopener noreferrer"
         ><i class="fas fa-mobile-alt"></i> Call me</a>
       </div>
     </section>
